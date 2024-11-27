@@ -988,9 +988,9 @@ class Pickup extends MyGameObject
         }
         else if (this.type==4)
         {
-            // 5 coin
+            // 20 coin
             PlaySound(10);
-            playerData.coins+=5;
+            playerData.coins+=20;
         }
         else
         {
